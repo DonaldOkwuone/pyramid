@@ -1,0 +1,402 @@
+/*Default link styles*/
+
+a:link{
+    color: #8F5B00;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #8F5B00;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #333;
+    text-decoration: none;
+
+}
+
+a:active{
+    color: #333;
+}
+.workarea table tr td textarea{
+    width: 200%;
+    height: 160%;
+}
+
+@font-face {
+	font-family: 'SourceSansPro-ExtraLight';
+	src: url('../fonts/SourceSansPro-ExtraLight-webfont.eot');
+	src: url('../fonts/SourceSansPro-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('../fonts/SourceSansPro-ExtraLight-webfont.woff') format('woff'), 
+	     url('../fonts/SourceSansPro-ExtraLight-webfont.ttf')  format('truetype'), 
+	     url('../fonts/SourceSansPro-ExtraLight-webfont.svg#svgFontName') format('svg'); 
+	}
+     
+        body{
+    font-family: SourceSansPro-ExtraLight, sans-serif;
+    font-family: 'Varela Round', SourceSansPro-ExtraLight;
+    color: #333;
+    font-size: 0.95em;
+
+
+    
+}
+/*body.home{
+    
+     background: url('../img/00.png');
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}*/
+/*body.page{
+    background: url('../img/faded_bb.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;  
+}*/
+  
+
+.row.main{
+    background: url('../img/opaque_white.png');
+    /*background-position-y: 22px;*/
+    background-repeat: repeat; 
+    min-height: 550px;
+}
+
+.columns.r.sign{
+    margin-top: 90px;
+}
+.container.mid.page{
+    min-height: 450px;
+    background: papayawhip;
+}
+.pl{
+    min-height: 450px;
+    background: #fff; 
+}
+.row.debug1, .row.debug2, .row.debug3{
+    height: 350px;
+}
+.row.debug1{
+    background: paleturquoise;
+}
+.row.debug2{
+    background: #fff;
+}
+.row.debug3{
+    background: palegoldenrod;
+}
+
+
+.row.footer{
+background: #f8fafb;
+    height: 50px;
+    
+}
+.row.footer p{ 
+font-size: 1.0em;
+    position: relative;
+    left: -15px;
+}
+.logo img{
+    position: relative;
+    top: 55px;
+    
+}
+
+.workarea{
+    
+    /*background: papayawhip;
+    background: snow;*/
+    background: url('../img/opaque_white.png');
+   
+    background-repeat: repeat; 
+    min-height: 520px;
+}
+.socials ul li{
+    display: inline;
+    padding: 9px;
+}
+
+p{
+  padding: 6px  
+}
+.nav{
+   margin-top: 25px
+}
+.row.space{
+  
+    height: 85px;
+   
+}
+.row.lspace{
+    height: 55px;
+}
+
+/**dash**/
+ul.dash li{
+    list-style: none;
+    font-size: 0.9em;
+    
+}
+ul.dash li a:link{
+    color: #fff;
+    padding: 5px;
+    display: block;
+    font-size: 1.2em;
+    
+}
+ul.dash li a:visited{
+    color: #fff;
+    display: block;
+}
+ul.dash li a:hover{
+    color: purple;
+    padding: 5px;
+    background: snow;
+    text-decoration: none;
+   
+}
+ul.dash li a:active{
+    color:orange;   
+}
+ul.dash li#here a{
+    color: purple;
+    background: palegoldenrod;
+    text-decoration: none;
+   
+}
+
+/**/
+.cates ul li {
+    list-style: none;
+}
+.cates ul li a:link{
+    text-decoration: none;
+    font-size: 1.1em;
+   color: purple;
+}
+.cates ul li a:visited{
+    color: purple; 
+    
+}
+.cates ul li a:hover{
+   color: #196177;
+   color: palegreen;
+   
+}
+.cates ul li a:active{
+    color: palegreen;
+   
+}
+/**/
+.debug p{
+    padding: 11px;
+    font-size: 1.2em;
+}
+.cates p{
+    padding: 4px 0 0 0;
+    font-size: 1.7em;
+}
+
+input[type='text'], input[type='password'], select{
+    height: 40px;
+    width: 80%;
+    border: none;
+}
+.form.signup ul li{
+    margin-bottom: 15px;
+}
+.form.signin ul,.form.signup ul{
+    position: relative;
+    top: 25px;
+}
+button{
+    padding: 7px
+}
+p.small{
+    font-size: 1.2em;
+    padding-top: 35px
+}
+p.small a{
+    color: #669;
+}
+p.msg{
+    color: purple;
+}
+span.err{
+    color: #8F5B00;
+    font-size: 1.0em;
+  
+}
+span.msg{
+    color: #333;
+    font-size: 1.2em;
+    position: relative;
+    top: 20px;
+    padding: 13px
+  
+}
+p.title{
+    font-size: 1.8em;
+    margin-top: 35px;
+    margin-bottom: -40px;
+    padding-left: 0;
+}
+
+
+/**/
+table td{
+    background: none;
+}
+ul li{
+    list-style: none;
+}
+ul.bio li input[type='text'], ul.bio li select{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.workarea ul{
+    position: relative;
+    top: 35px;
+}
+ul.ad li textarea{
+    width: 80%;
+    height: 120px;
+    border: none;
+    margin-bottom: 15px;
+}
+.recent ul{
+    margin-top: 85px;
+}
+.recent ul li{
+    margin-top: 25px;
+    line-height: 120%;
+    
+}
+/*body.home .columns.l.recent ul{
+    position: relative;
+    top: 25px;
+}*/
+
+
+.recent ul li.post{
+    padding: 11px;
+    padding-right: 75px;
+    position: relative;
+    left: -12px;
+    margin-bottom: 20px
+    
+}
+.columns.l.recent{
+    background: snow;
+    background: seashell;
+    min-height: 850px
+}
+.columns.recent ul li{  
+   
+    color: #669;
+    /*margin-bottom: 5px;*/
+       
+}
+.columns.l.recent table.location{
+    margin-top: 45px;
+}
+.columns.l.recent table.location tr td select{
+    width: 155%;
+}
+/*classifieds*/
+.columns.l.recent ul#go{
+    margin-top: -15px;
+}
+.columns.l.recent select{
+    position: relative;
+    left: -20px;
+}
+/**/
+.row.four{
+    background: seashell;
+    min-height: 250px;
+    margin-top: 25px;
+}
+.row.four .columns ul{
+    position: relative;
+    top: 15px;
+}
+.row.four .columns ul li{
+    line-height: 0.8;
+}
+
+/*display none hacks*/
+body.home div.paginator{
+    display: none;
+}
+/**/
+span.inactive select{
+    width: 35px;
+    position: relative;
+    left: 25px;
+}
+div.paginator{
+    position: relative;
+    top: 20px;
+}
+
+/*on mobile*/
+@media (max-width: 679px) {
+   .site-wrap {
+   background: url('../img/003.png');
+   background-attachment: fixed;
+    /*background-size: cover;*/
+ } 
+.row.footer p{ 
+font-size: 0.9em;
+    
+}  
+}
+
+
+
+/*user dash*/
+ul.user.dash li a:link{
+    color: #fff;
+  
+}
+ul.user.dash li a:visited{
+    color: #fff
+}
+ul.user.dash li a:hover{
+   color: #fff;
+   background: #333;
+}
+ul.user.dash li a:active{
+   color: orange; 
+}
+
+ul.classes li {
+    list-style: none;
+}
+
+
+/**/
+
+/*form.form ul.track li{
+    border: 1px solid papayawhip;
+    padding: 6px
+}
+form.form ul.track li.no{
+    border:none;
+}*/
+
+h1,h2,h3{
+    font-family: 'Baloo Bhaina', SourceSansPro-ExtraLight;
+    font-size: 1.8em
+}
+form.form{
+    margin-bottom: 45px
+}
+ul li.inline{
+    display: inline
+}

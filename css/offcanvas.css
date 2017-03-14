@@ -1,0 +1,118 @@
+.navigation {
+    list-style: none;
+    background: #444;
+    width: 100%;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    padding: 20px;
+    padding-left: 30px;
+    color: #fff;
+    
+}
+.navigation ul li{
+    overflow-y: auto;
+}
+.navigation ul li a:link{
+  color: #ccc; 
+}
+.navigation ul li a:visited{
+    color: #ccc; 
+}
+.navigation ul li a:hover{
+    color: #99c; 
+}
+.navigation ul li a:active{
+    color: #99c; 
+}
+.navigation ul li#here a{
+ 
+    /*background: #99c;*/
+    border: 1px solid #ccc;
+ 
+    text-decoration: none;
+    padding: 2px;
+   
+}
+.site-wrap {
+    min-width: 100%;
+    min-height: 100%;
+    /*background-color: #fff;*/
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+}
+body .site-wrap {
+    /* ...previous styles here... */
+    padding: 4em;
+   background-color: #f8fafb;
+   background: url('../img/abb.png');
+   background-attachment: fixed;
+    background-size: cover;
+}
+body.home .site-wrap {
+    /* ...previous styles here... */
+    padding: 4em;
+   background-color: #f8fafb;
+   background: url('../img/ab.png');
+   background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-wrap.store {
+  
+   background: url('../img/store_bg.png');
+   background-attachment: fixed;
+    background-size: cover;
+}
+/*.site-wrap.index{
+    background: #fff;
+}*/
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+label[for="nav-trigger"] {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+}
+label[for="nav-trigger"] {
+    /* ... previous styles here... */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+    background-size: contain;
+}
+.nav-trigger:checked + label {
+    left: 215px;
+}
+ 
+.nav-trigger:checked ~ .site-wrap {
+    left: 200px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+}
+body {
+    overflow-x: hidden;
+}
+ul.navigation.dash{
+    overflow-y: scroll;
+    
+        
+}
+html{
+    position: relative;
+    top: -35px;
+}
